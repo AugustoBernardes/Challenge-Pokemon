@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255,185,56);
+    background-size:cover ;
+}
+
+
+
+.text-top{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.text-imersao{
+    margin-top: 20px;
+}
+
+span{
+    background: rgb(60,134,249);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.content{
+    margin-top: 50px;
+    background: rgb(234,173,58);
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.9);
+    
+}
+
+.pokemon-logo{
+    color: white;
+}
+
+.msg-content{
+    color: white;
+    background: rgb(18,18,18);
+    width: 90%;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+
+#ash-image , #pikachu-image{
+    width: 60px;
+}
+
+
+#pikachu-image{
+  width: 70px;
+  opacity:1;
+  border-radius: 5px;
+  padding: -30px;
+}
+
+input{
+    border: solid black 1px;
+    padding: 3px;
+    border-radius: 10px;
+    background: rgb(18,18,18);
+    color: white;
+}
+
+button{
+    width: 30%;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(187, 158, 105);
+}
+
+button:hover{
+    background: rgb(221, 191, 135) ;
+}
+
+.credit{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:wheat;
+}
+
+a:hover{
+    color: rgb(18, 18, 18);
+}
